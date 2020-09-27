@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "aula07-exemplo02.css",
+	"sources": [
+		"../sass/aula07-exemplo02.scss"
+	],
+	"sourcesContent": [
+		"// tema azul\n$color-blue: blue;\n$color-white: white;\n\naside {\n    background-color: $color-blue;\n    color: $color-white;\n}"
+	],
+	"names": [],
+	"mappings": ";AAIA,AAAA,KAAK,CAAC;EACF,gBAAgB,EAJP,IAAI;EAKb,KAAK,EAJK,KAAK;CAKlB"
+}

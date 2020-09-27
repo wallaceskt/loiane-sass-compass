@@ -1,0 +1,20 @@
+{
+	"version": 3,
+	"file": "aula07.css",
+	"sources": [
+		"../sass/aula07.scss",
+		"../sass/aula04.scss",
+		"../sass/aula05.scss",
+		"../sass/aula03.scss",
+		"../sass/aula07-exemplo02.scss"
+	],
+	"sourcesContent": [
+		"// Importando outros arquivos Sass\n@import \"aula04.scss\";\n@import \"aula05.scss\";\n@import \"aula03.scss\";\n\n.tema-azul {\n    @import \"aula07-exemplo02.scss\";\n}",
+		".vermelho {\n    color: red;\n}\n\n.amarelo {\n    color: yellow;\n}",
+		"$highlight-color: #abcdef;\n$width: 300px;\n$base-color: #fff;\n$background-color: #abcdef;\n$color-red: red;\n$color-yellow: yellow;\n$color-green: green;\n$highlight-border: 1px solid $highlight-color;\n\n.vermelho {\n    color: $color-red;\n}\n\n.amarelo {\n    color: $color-yellow;\n}\n\n.verde {\n    color: $color-green;\n}\n\n.error {\n    color: $base-color;\n    background-color: $background-color;\n    width: $width;\n    border: 1px solid $highlight-color;\n}\n\n.selected {\n    border: $highlight_border; /* $highlight-border e $highlight_border são iguais */\n}",
+		".vermelho {\n    color: red;\n}\n\n.azul {\n    color: blue;\n}",
+		"// tema azul\n$color-blue: blue;\n$color-white: white;\n\naside {\n    background-color: $color-blue;\n    color: $color-white;\n}"
+	],
+	"names": [],
+	"mappings": ";;ACAA,AAAA,SAAS,CAAC;EACN,KAAK,EAAE,GAAG;CACb;;;AAED,AAAA,QAAQ,CAAC;EACL,KAAK,EAAE,MAAM;CAChB;;;ACGD,AAAA,SAAS,CAAC;EACN,KAAK,EANG,GAAG;CAOd;;;AAED,AAAA,QAAQ,CAAC;EACL,KAAK,EATM,MAAM;CAUpB;;;AAED,AAAA,MAAM,CAAC;EACH,KAAK,EAZK,KAAK;CAalB;;;AAED,AAAA,MAAM,CAAC;EACH,KAAK,EApBI,IAAI;EAqBb,gBAAgB,EApBD,OAAO;EAqBtB,KAAK,EAvBD,KAAK;EAwBT,MAAM,EAAE,GAAG,CAAC,KAAK,CAzBH,OAAO;CA0BxB;;;AAED,AAAA,SAAS,CAAC;EACN,MAAM,EAtBS,GAAG,CAAC,KAAK,CAPV,OAAO;EA6BM,sDAAsD;CACpF;;;AC9BD,AAAA,SAAS,CAAC;EACN,KAAK,EAAE,GAAG;CACb;;;AAED,AAAA,KAAK,CAAC;EACF,KAAK,EAAE,IAAI;CACd;;;AHDD,AIDA,UJCU,CIDV,KAAK,CAAC;EACF,gBAAgB,EAJP,IAAI;EAKb,KAAK,EAJK,KAAK;CAKlB"
+}
