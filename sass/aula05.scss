@@ -1,0 +1,31 @@
+$highlight-color: #abcdef;
+$width: 300px;
+$base-color: #fff;
+$background-color: #abcdef;
+$color-red: red;
+$color-yellow: yellow;
+$color-green: green;
+$highlight-border: 1px solid $highlight-color;
+
+.vermelho {
+    color: $color-red;
+}
+
+.amarelo {
+    color: $color-yellow;
+}
+
+.verde {
+    color: $color-green;
+}
+
+.error {
+    color: $base-color;
+    background-color: $background-color;
+    width: $width;
+    border: 1px solid $highlight-color;
+}
+
+.selected {
+    border: $highlight_border; /* $highlight-border e $highlight_border são iguais */
+}

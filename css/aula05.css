@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* line 10, ../../../../../Users/wallaceoliveira/Sites/loiane-sass-compass/sass/aula05.scss */
+.vermelho {
+  color: red;
+}
+
+/* line 14, ../../../../../Users/wallaceoliveira/Sites/loiane-sass-compass/sass/aula05.scss */
+.amarelo {
+  color: yellow;
+}
+
+/* line 18, ../../../../../Users/wallaceoliveira/Sites/loiane-sass-compass/sass/aula05.scss */
+.verde {
+  color: green;
+}
+
+/* line 22, ../../../../../Users/wallaceoliveira/Sites/loiane-sass-compass/sass/aula05.scss */
+.error {
+  color: #fff;
+  background-color: #abcdef;
+  width: 300px;
+  border: 1px solid #abcdef;
+}
+
+/* line 29, ../../../../../Users/wallaceoliveira/Sites/loiane-sass-compass/sass/aula05.scss */
+.selected {
+  border: 1px solid #abcdef;
+  /* $highlight-border e $highlight_border são iguais */
+}
+
+/*# sourceMappingURL=aula05.css.map */
