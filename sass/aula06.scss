@@ -1,0 +1,34 @@
+// Propriedades aninhadas
+$color-border: #ccc;
+$font-family: "Times New Roman", Times, serif;
+
+nav {
+    border: {
+        style: solid;
+        width: 1px;
+        color: $color-border;
+        right: 0;
+        left: 0;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font: {
+            family: $font-family;
+            style: italic;
+            size: 14px;
+        }
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    a {
+        display: block;
+        padding: 6px 12px;
+        text-decoration: none;
+    }
+}

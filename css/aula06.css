@@ -1,0 +1,32 @@
+/* line 5, ../../../../../Users/wallaceoliveira/Sites/loiane-sass-compass/sass/aula06.scss */
+nav {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ccc;
+  border-right: 0;
+  border-left: 0;
+}
+
+/* line 14, ../../../../../Users/wallaceoliveira/Sites/loiane-sass-compass/sass/aula06.scss */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 14px;
+}
+
+/* line 25, ../../../../../Users/wallaceoliveira/Sites/loiane-sass-compass/sass/aula06.scss */
+nav li {
+  display: inline-block;
+}
+
+/* line 29, ../../../../../Users/wallaceoliveira/Sites/loiane-sass-compass/sass/aula06.scss */
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=aula06.css.map */

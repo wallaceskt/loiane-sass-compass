@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "aula06.css",
+	"sources": [
+		"../sass/aula06.scss"
+	],
+	"sourcesContent": [
+		"// Propriedades aninhadas\n$color-border: #ccc;\n$font-family: \"Times New Roman\", Times, serif;\n\nnav {\n    border: {\n        style: solid;\n        width: 1px;\n        color: $color-border;\n        right: 0;\n        left: 0;\n    }\n\n    ul {\n        margin: 0;\n        padding: 0;\n        list-style: none;\n        font: {\n            family: $font-family;\n            style: italic;\n            size: 14px;\n        }\n    }\n\n    li {\n        display: inline-block;\n    }\n\n    a {\n        display: block;\n        padding: 6px 12px;\n        text-decoration: none;\n    }\n}"
+	],
+	"names": [],
+	"mappings": ";AAIA,AAAA,GAAG,CAAC;EAEI,YAAK,EAAE,KAAK;EACZ,YAAK,EAAE,GAAG;EACV,YAAK,EAPE,IAAI;EAQX,YAAK,EAAE,CAAC;EACR,WAAI,EAAE,CAAC;CAuBd;;;AA7BD,AASI,GATD,CASC,EAAE,CAAC;EACC,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,IAAI;EAEZ,WAAM,EAhBJ,iBAAiB,EAAE,KAAK,EAAE,KAAK;EAiBjC,UAAK,EAAE,MAAM;EACb,SAAI,EAAE,IAAI;CAEjB;;;AAlBL,AAoBI,GApBD,CAoBC,EAAE,CAAC;EACC,OAAO,EAAE,YAAY;CACxB;;;AAtBL,AAwBI,GAxBD,CAwBC,CAAC,CAAC;EACE,OAAO,EAAE,KAAK;EACd,OAAO,EAAE,QAAQ;EACjB,eAAe,EAAE,IAAI;CACxB"
+}
