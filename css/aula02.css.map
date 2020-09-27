@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,SAAU;EACN,KAAK,EAAE,GAAG",
+"sources": ["../sass/aula02.scss"],
+"names": [],
+"file": "aula02.css"
+}
