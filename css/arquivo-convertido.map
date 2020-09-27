@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "arquivo-convertido.css",
+	"sources": [
+		"../sass/arquivo-convertido.scss"
+	],
+	"sourcesContent": [
+		".vermelho {\n  color: red;\n}\n\n.azul {\n  color: blue;\n}\n\n/*# sourceMappingURL=aula03.css.map */\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,SAAS,CAAC;EACR,KAAK,EAAE,GAAG;CACX;;;AAED,AAAA,KAAK,CAAC;EACJ,KAAK,EAAE,IAAI;CACZ;;AAED,sCAAsC"
+}

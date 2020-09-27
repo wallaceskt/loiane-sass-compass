@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "aula03-exemplo02.css",
+	"sources": [
+		"../sass/aula03-exemplo02.scss"
+	],
+	"sourcesContent": [
+		".verde {\n    color: green;\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,MAAM,CAAC;EACH,KAAK,EAAE,KAAK;CACf"
+}
