@@ -1,0 +1,16 @@
+/* line 4, ../../../../../Users/wallaceoliveira/Sites/loiane-sass-compass/sass/aula09.scss */
+.loud, .angry {
+  font-weight: bold;
+}
+
+/* line 8, ../../../../../Users/wallaceoliveira/Sites/loiane-sass-compass/sass/aula09.scss */
+.quiet {
+  font-weight: lighter;
+}
+
+/* line 12, ../../../../../Users/wallaceoliveira/Sites/loiane-sass-compass/sass/aula09.scss */
+.angry {
+  color: red;
+}
+
+/*# sourceMappingURL=aula09.css.map */

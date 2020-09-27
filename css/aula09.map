@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "aula09.css",
+	"sources": [
+		"../sass/aula09.scss"
+	],
+	"sourcesContent": [
+		"// Herança (@extends): um estilo pode herdar as propriedades de outro estilo\n$color-red: red;\n\n.loud {\n    font-weight: bold;\n}\n\n.quiet {\n    font-weight: lighter;\n}\n\n.angry {\n    @extend .loud;\n    color: $color-red;\n}"
+	],
+	"names": [],
+	"mappings": ";AAGA,AAAA,KAAK,EAQL,MAAM,CARA;EACF,WAAW,EAAE,IAAI;CACpB;;;AAED,AAAA,MAAM,CAAC;EACH,WAAW,EAAE,OAAO;CACvB;;;AAED,AAAA,MAAM,CAAC;EAEH,KAAK,EAZG,GAAG;CAad"
+}

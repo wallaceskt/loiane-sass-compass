@@ -1,0 +1,15 @@
+// Herança (@extends): um estilo pode herdar as propriedades de outro estilo
+$color-red: red;
+
+.loud {
+    font-weight: bold;
+}
+
+.quiet {
+    font-weight: lighter;
+}
+
+.angry {
+    @extend .loud;
+    color: $color-red;
+}
