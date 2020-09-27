@@ -1,0 +1,48 @@
+/* line 4, ../../../../../Users/wallaceoliveira/Sites/loiane-sass-compass/sass/aula08.scss */
+.noticia {
+  background-color: green;
+  border: 2px solid #00aa00;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 10, ../../../../../Users/wallaceoliveira/Sites/loiane-sass-compass/sass/aula08.scss */
+.headline {
+  font-size: 14px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 15, ../../../../../Users/wallaceoliveira/Sites/loiane-sass-compass/sass/aula08.scss */
+.a {
+  color: blue;
+}
+
+/* line 9, ../../../../../Users/wallaceoliveira/Sites/loiane-sass-compass/sass/meus-mixins.scss */
+.a:hover {
+  color: red;
+}
+
+/* line 10, ../../../../../Users/wallaceoliveira/Sites/loiane-sass-compass/sass/meus-mixins.scss */
+.a:visited {
+  color: green;
+}
+
+/* line 19, ../../../../../Users/wallaceoliveira/Sites/loiane-sass-compass/sass/aula08.scss */
+.link {
+  color: blue;
+}
+
+/* line 15, ../../../../../Users/wallaceoliveira/Sites/loiane-sass-compass/sass/meus-mixins.scss */
+.link:hover {
+  color: red;
+}
+
+/* line 16, ../../../../../Users/wallaceoliveira/Sites/loiane-sass-compass/sass/meus-mixins.scss */
+.link:visited {
+  color: blue;
+}
+
+/*# sourceMappingURL=aula08.css.map */

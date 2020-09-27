@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "meus-mixins.css",
+	"sources": [
+		"../sass/meus-mixins.scss"
+	],
+	"sourcesContent": [
+		"@mixin rounded-corners {\n    -moz-border-radius: 5px;\n    -webkit-border-radius: 5px;\n    border-radius: 5px;\n}\n\n@mixin link-colors ($normal, $hover, $visited) {\n    color: $normal;\n    &:hover {color: $hover;};\n    &:visited {color: $visited;};\n}\n\n@mixin link-colors2 ($normal, $hover: $normal, $visited: $normal) {\n    color: $normal;\n    &:hover {color: $hover;};\n    &:visited {color: $visited;};\n}"
+	],
+	"names": [],
+	"mappings": ""
+}

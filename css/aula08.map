@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "aula08.css",
+	"sources": [
+		"../sass/aula08.scss",
+		"../sass/meus-mixins.scss"
+	],
+	"sourcesContent": [
+		"// Trabalhando com Mixins: propriedades que podem ser reutilizadas em outros estilos\n@import \"meus-mixins.scss\";\n\n.noticia {\n    background-color: green;\n    border:  2px solid #00aa00;\n    @include rounded-corners();\n}\n\n.headline {\n    font-size: 14px;\n    @include rounded-corners;\n}\n\n.a {\n    @include link-colors (blue, red, green);\n}\n\n.link {\n    @include link-colors2 (blue, red);\n}",
+		"@mixin rounded-corners {\n    -moz-border-radius: 5px;\n    -webkit-border-radius: 5px;\n    border-radius: 5px;\n}\n\n@mixin link-colors ($normal, $hover, $visited) {\n    color: $normal;\n    &:hover {color: $hover;};\n    &:visited {color: $visited;};\n}\n\n@mixin link-colors2 ($normal, $hover: $normal, $visited: $normal) {\n    color: $normal;\n    &:hover {color: $hover;};\n    &:visited {color: $visited;};\n}"
+	],
+	"names": [],
+	"mappings": ";AAGA,AAAA,QAAQ,CAAC;EACL,gBAAgB,EAAE,KAAK;EACvB,MAAM,EAAG,iBAAiB;ECJ1B,kBAAkB,EAAE,GAAG;EACvB,qBAAqB,EAAE,GAAG;EAC1B,aAAa,EAAE,GAAG;CDIrB;;;AAED,AAAA,SAAS,CAAC;EACN,SAAS,EAAE,IAAI;ECTf,kBAAkB,EAAE,GAAG;EACvB,qBAAqB,EAAE,GAAG;EAC1B,aAAa,EAAE,GAAG;CDSrB;;;AAED,AAAA,EAAE,CAAC;ECPC,KAAK,EDQiB,IAAI;CAC7B;;;AAFD,ACNI,EDMF,ACNG,MAAM,CAAC;EAAC,KAAK,EDOc,GAAG;CCPN;;;ADM7B,ACLI,EDKF,ACLG,QAAQ,CAAC;EAAC,KAAK,EDMiB,KAAK;CCNT;;;ADSjC,AAAA,KAAK,CAAC;ECLF,KAAK,EDMkB,IAAI;CAC9B;;;AAFD,ACJI,KDIC,ACJA,MAAM,CAAC;EAAC,KAAK,EDKe,GAAG;CCLP;;;ADI7B,ACHI,KDGC,ACHA,QAAQ,CAAC;EAAC,KAAK,EDIO,IAAI;CCJE"
+}
